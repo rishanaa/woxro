@@ -1,0 +1,46 @@
+.service-cont h4{
+ /* color: white; */
+ text-align: center;
+ font-size: 33px;
+ font-weight: 700;
+}
+.service-cont p{
+    color: rgb(92, 91, 91);
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 13px;
+    font-weight: 700;
+}
+.services{
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    padding-top: 40px;
+}
+.services-bottom{
+    padding: 8% 3%;
+}
+.service-card{
+    margin: 2%;
+    border: none;
+    border-radius: 5px;
+    padding: 2% 0;
+}
+.services img{
+    width: 70px;
+    
+}
+@media only screen and (max-width:768px){
+    .service-cont h4{
+        text-align: center;
+        font-size: 20px;
+        font-weight: 700;
+       }
+       .service-cont p{
+           color: rgb(92, 91, 91);
+           text-align: center;
+           letter-spacing: 3px;
+           font-size: 11px;
+           font-weight: 700;
+       }
+}

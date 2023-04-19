@@ -1,0 +1,93 @@
+.header h2{
+    font-size: 16px;
+    padding: 0px 5px ;
+}
+
+.first-section{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+}
+.header .second-section{
+    background-color: white;
+    position: relative;
+}
+.header .segment1{
+    display: flex;
+}
+.header .segment2{
+    display: flex;
+    
+}
+.header a{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    padding-top: 15px;
+    
+}
+.flexSB{
+    display: flex;
+    justify-content: space-between;
+}
+.header i{
+    padding-top: 2px;
+}
+img{
+    width: 250px;
+}
+.toggle{
+    display: none;
+    position: absolute;
+    margin-top: -10%;
+    margin-left: 95%;
+    border: none;
+    background-color: white;
+    font-size: 25px;
+}
+.nav{
+    background-color: black;
+    
+    
+}
+.header .home{
+    padding-top: 15px;
+}
+@media only screen and (max-width:768px){
+    .nav .flexSB {
+        display: none;
+    }
+    .first-section{
+        display: none;
+    }
+    .toggle{
+        display: block;
+        background-color: white;
+        color: grey;
+        
+    }
+    .header a:hover{
+        color: grey;
+    }
+    img{
+        width: 200px;
+    }
+    .navMenu-list{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        background-color: black;
+        width: 50%;
+        height: 100vh;
+        margin-top: -16%;
+    margin-left: 60%;
+    }
+    .header a{
+        padding: 20px 0px;
+    }
+    .header .home{
+        padding-top: 60px;
+    }
+}
