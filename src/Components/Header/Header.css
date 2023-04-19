@@ -50,7 +50,6 @@ img{
 .nav{
     background-color: black;
     
-    
 }
 .header .home{
     padding-top: 15px;
@@ -83,6 +82,8 @@ img{
         height: 100vh;
         margin-top: -16%;
     margin-left: 60%;
+    z-index: 999;
+    transition: 0.5s;
     }
     .header a{
         padding: 20px 0px;
